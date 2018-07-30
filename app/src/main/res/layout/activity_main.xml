@@ -15,22 +15,13 @@
 
     <com.eram.persianlocationpickerlib.widgets.CountryPersianPicker
         android:layoutDirection="rtl"
+        android:layout_margin="10dp"
         style="@style/Widget.AppCompat.Spinner.DropDown"
+        android:background="@drawable/spinner_background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <View
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp"/>
-    <View
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:layout_width="match_parent"
-        android:background="#555"
-        android:layout_height="1dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
